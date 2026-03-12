@@ -23,17 +23,23 @@ namespace Animaciones
         int villanoFila = 2;
         int villanoColumna = 8;
 
+        int asesinoFila = 5;
+        int asesinoColumna = 10;
+
         enum Turno
         {
             Heroe,
-            Villano,
+            Asesino,
+            Villano,       
             Animando
         }
 
         Turno turnoActual = Turno.Heroe;
+        
 
         Personaje heroe = new Heroe();
         Personaje villano = new Villano();
+        Personaje asesino = new Asesino();
 
         Timer loop = new Timer();
 
@@ -83,8 +89,8 @@ namespace Animaciones
             // POSICION INICIAL
             ActualizarPosicionHeroe();
             ActualizarPosicionVillano();
+            ActualizarPosicionAsesino();
 
-            
             KeyDown += OnKeyPresDown;
             KeyUp += OnKeyUp;
             Paint += OnPaint;
@@ -108,6 +114,14 @@ namespace Animaciones
             villano.Skin.Location = new Point(
                 villanoColumna * tamanoCelda,
                 villanoFila * tamanoCelda
+            );
+        }
+
+        void ActualizarPosicionAsesino()
+        {
+            asesino.Skin.Location = new Point(
+                asesinoColumna * tamanoCelda,
+                asesinoFila * tamanoCelda
             );
         }
 
@@ -151,6 +165,12 @@ namespace Animaciones
                 villano.Skin.Width,
                 villano.Skin.Height));
 
+            g.DrawImage(asesino.Skin.Image, new Rectangle(
+            asesino.Skin.Location.X,
+            asesino.Skin.Location.Y,
+            asesino.Skin.Width,
+            asesino.Skin.Height));
+
             // TEXTO TURNO
             g.DrawString(
                 $"Turno: {turnoActual}",
@@ -168,53 +188,94 @@ namespace Animaciones
         private void OnKeyUp(object sender, KeyEventArgs e)
         {
             ((Heroe)heroe).EstadoActual = Heroe.EstadosHeroe.Idle;
+            ((Asesino)asesino).EstadoActual = Asesino.EstadosAsesino.Idle;
         }
 
         private void OnKeyPresDown(object sender, KeyEventArgs e)
         {
-            if (turnoActual != Turno.Heroe)
-                return;
+            /*if (turnoActual != Turno.Heroe)
+                return;*/
 
+            if (turnoActual == Turno.Heroe)
+            {
+                ControlHeroe(e);
+            }
+
+            if (turnoActual == Turno.Asesino)
+            {
+                ControlAsesino(e);
+            }
+
+        
+        }
+
+        void ControlHeroe(KeyEventArgs e)
+        {
             int nuevaFila = heroeFila;
             int nuevaColumna = heroeColumna;
-
             if (e.KeyCode == Keys.Right)
             {
                 nuevaColumna++;
                 ((Heroe)heroe).EstadoActual = Heroe.EstadosHeroe.CaminandoDerecha;
             }
-
             if (e.KeyCode == Keys.Left)
             {
                 nuevaColumna--;
                 ((Heroe)heroe).EstadoActual = Heroe.EstadosHeroe.CaminandoIzquierda;
             }
-
             if (e.KeyCode == Keys.Up)
-            {
                 nuevaFila--;
-            }
-
             if (e.KeyCode == Keys.Down)
-            {
                 nuevaFila++;
-            }
-
             if (PuedeMover(nuevaFila, nuevaColumna))
             {
                 heroeFila = nuevaFila;
                 heroeColumna = nuevaColumna;
                 ActualizarPosicionHeroe();
             }
-
-            // ATAQUE
             if (e.KeyCode == Keys.Space)
             {
                 ((Heroe)heroe).EstadoActual = Heroe.EstadosHeroe.AtacandoDerecha;
-                turnoActual = Turno.Villano;
+                turnoActual = Turno.Asesino;
             }
         }
 
+        void ControlAsesino(KeyEventArgs e)
+        {
+            int nuevaFila = asesinoFila;
+            int nuevaColumna = asesinoColumna;
+
+            if (e.KeyCode == Keys.D)
+            {
+                nuevaColumna++;
+                ((Asesino)asesino).EstadoActual = Asesino.EstadosAsesino.CaminandoDerecha;
+            }
+
+            if (e.KeyCode == Keys.A)
+            {
+                nuevaColumna--;
+                ((Asesino)asesino).EstadoActual = Asesino.EstadosAsesino.CaminandoIzquierda;
+            }
+
+            if (e.KeyCode == Keys.W)
+                nuevaFila--;
+
+            if (e.KeyCode == Keys.S)
+                nuevaFila++;
+
+            if (PuedeMover(nuevaFila, nuevaColumna))
+            {
+                asesinoFila = nuevaFila;
+                asesinoColumna = nuevaColumna;
+                ActualizarPosicionAsesino();
+            }
+
+            if (e.KeyCode == Keys.X)
+            {
+                ((Asesino)asesino).EstadoActual = Asesino.EstadosAsesino.AtacandoDerecha;
+                turnoActual = Turno.Villano;
+            }
+        }
         bool PuedeMover(int fila, int columna)
         {
             if (fila < 0 || fila >= filas)
@@ -239,9 +300,13 @@ namespace Animaciones
         {
             ((Heroe)heroe).ActualizarPantalla();
             ((Villano)villano).ActualizarPantalla();
+            ((Asesino)asesino).ActualizarPantalla();
+
+            //((Heroe)heroe).animator.Update();
+            ((Villano)villano).animator.Update();
 
             ((Heroe)heroe).animator.Update();
-            ((Villano)villano).animator.Update();
+            ((Asesino)asesino).animator.Update();
 
             if (turnoActual == Turno.Villano)
             {

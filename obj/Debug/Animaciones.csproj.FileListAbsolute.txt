@@ -39,3 +39,13 @@ C:\Users\ASUS TUF\Documents\U\semestre 4\programacion 3\Animaciones (2)\Animacio
 C:\Users\ASUS TUF\Documents\U\semestre 4\programacion 3\Animaciones (2)\Animaciones (2)\Animaciones\obj\Debug\Animaciones.csproj.CoreCompileInputs.cache
 C:\Users\ASUS TUF\Documents\U\semestre 4\programacion 3\Animaciones (2)\Animaciones (2)\Animaciones\obj\Debug\Animaciones.exe
 C:\Users\ASUS TUF\Documents\U\semestre 4\programacion 3\Animaciones (2)\Animaciones (2)\Animaciones\obj\Debug\Animaciones.pdb
+C:\Archivos to joya\Semestres\Cuarto semestre\Program3\Tallerjuego\Animaciones\bin\Debug\Animaciones.exe.config
+C:\Archivos to joya\Semestres\Cuarto semestre\Program3\Tallerjuego\Animaciones\bin\Debug\Animaciones.exe
+C:\Archivos to joya\Semestres\Cuarto semestre\Program3\Tallerjuego\Animaciones\bin\Debug\Animaciones.pdb
+C:\Archivos to joya\Semestres\Cuarto semestre\Program3\Tallerjuego\Animaciones\obj\Debug\Animaciones.csproj.AssemblyReference.cache
+C:\Archivos to joya\Semestres\Cuarto semestre\Program3\Tallerjuego\Animaciones\obj\Debug\Animaciones.Form1.resources
+C:\Archivos to joya\Semestres\Cuarto semestre\Program3\Tallerjuego\Animaciones\obj\Debug\Animaciones.Properties.Resources.resources
+C:\Archivos to joya\Semestres\Cuarto semestre\Program3\Tallerjuego\Animaciones\obj\Debug\Animaciones.csproj.GenerateResource.cache
+C:\Archivos to joya\Semestres\Cuarto semestre\Program3\Tallerjuego\Animaciones\obj\Debug\Animaciones.csproj.CoreCompileInputs.cache
+C:\Archivos to joya\Semestres\Cuarto semestre\Program3\Tallerjuego\Animaciones\obj\Debug\Animaciones.exe
+C:\Archivos to joya\Semestres\Cuarto semestre\Program3\Tallerjuego\Animaciones\obj\Debug\Animaciones.pdb

@@ -7,6 +7,18 @@
       "RelativeMoniker": "D:0:0:{E7D4E7EE-16D6-4524-84DF-657C02BF5C81}|Animaciones.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{E7D4E7EE-16D6-4524-84DF-657C02BF5C81}|Animaciones.csproj|C:\\Archivos to joya\\Semestres\\Cuarto semestre\\Program3\\Tallerjuego\\Animaciones\\modelos\\asesino.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7D4E7EE-16D6-4524-84DF-657C02BF5C81}|Animaciones.csproj|solutionrelative:modelos\\asesino.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7D4E7EE-16D6-4524-84DF-657C02BF5C81}|Animaciones.csproj|C:\\Archivos to joya\\Semestres\\Cuarto semestre\\Program3\\Tallerjuego\\Animaciones\\componentes\\animator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7D4E7EE-16D6-4524-84DF-657C02BF5C81}|Animaciones.csproj|solutionrelative:componentes\\animator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7D4E7EE-16D6-4524-84DF-657C02BF5C81}|Animaciones.csproj|C:\\Archivos to joya\\Semestres\\Cuarto semestre\\Program3\\Tallerjuego\\Animaciones\\modelos\\heroe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7D4E7EE-16D6-4524-84DF-657C02BF5C81}|Animaciones.csproj|solutionrelative:modelos\\heroe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E7D4E7EE-16D6-4524-84DF-657C02BF5C81}|Animaciones.csproj|C:\\Archivos to joya\\Semestres\\Cuarto semestre\\Program3\\Tallerjuego\\Animaciones\\modelos\\villano.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E7D4E7EE-16D6-4524-84DF-657C02BF5C81}|Animaciones.csproj|solutionrelative:modelos\\villano.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -15,16 +27,8 @@
       "RelativeMoniker": "D:0:0:{E7D4E7EE-16D6-4524-84DF-657C02BF5C81}|Animaciones.csproj|solutionrelative:modelos\\personaje.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E7D4E7EE-16D6-4524-84DF-657C02BF5C81}|Animaciones.csproj|C:\\Archivos to joya\\Semestres\\Cuarto semestre\\Program3\\Tallerjuego\\Animaciones\\modelos\\heroe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7D4E7EE-16D6-4524-84DF-657C02BF5C81}|Animaciones.csproj|solutionrelative:modelos\\heroe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E7D4E7EE-16D6-4524-84DF-657C02BF5C81}|Animaciones.csproj|C:\\Archivos to joya\\Semestres\\Cuarto semestre\\Program3\\Tallerjuego\\Animaciones\\componentes\\animacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E7D4E7EE-16D6-4524-84DF-657C02BF5C81}|Animaciones.csproj|solutionrelative:componentes\\animacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7D4E7EE-16D6-4524-84DF-657C02BF5C81}|Animaciones.csproj|C:\\Archivos to joya\\Semestres\\Cuarto semestre\\Program3\\Tallerjuego\\Animaciones\\componentes\\animator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7D4E7EE-16D6-4524-84DF-657C02BF5C81}|Animaciones.csproj|solutionrelative:componentes\\animator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E7D4E7EE-16D6-4524-84DF-657C02BF5C81}|Animaciones.csproj|C:\\Archivos to joya\\Semestres\\Cuarto semestre\\Program3\\Tallerjuego\\Animaciones\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -38,8 +42,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Asesino.cs",
+              "DocumentMoniker": "C:\\Archivos to joya\\Semestres\\Cuarto semestre\\Program3\\Tallerjuego\\Animaciones\\Modelos\\Asesino.cs",
+              "RelativeDocumentMoniker": "Modelos\\Asesino.cs",
+              "ToolTip": "C:\\Archivos to joya\\Semestres\\Cuarto semestre\\Program3\\Tallerjuego\\Animaciones\\Modelos\\Asesino.cs",
+              "RelativeToolTip": "Modelos\\Asesino.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T02:58:56.115Z"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -48,20 +64,20 @@
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "C:\\Archivos to joya\\Semestres\\Cuarto semestre\\Program3\\Tallerjuego\\Animaciones\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAABcAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADABAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-08T19:07:46.754Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Villano.cs",
               "DocumentMoniker": "C:\\Archivos to joya\\Semestres\\Cuarto semestre\\Program3\\Tallerjuego\\Animaciones\\Modelos\\Villano.cs",
               "RelativeDocumentMoniker": "Modelos\\Villano.cs",
               "ToolTip": "C:\\Archivos to joya\\Semestres\\Cuarto semestre\\Program3\\Tallerjuego\\Animaciones\\Modelos\\Villano.cs",
               "RelativeToolTip": "Modelos\\Villano.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAswFoAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAFoAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-08T19:24:06.394Z"
             },
@@ -73,25 +89,25 @@
               "RelativeDocumentMoniker": "Modelos\\Heroe.cs",
               "ToolTip": "C:\\Archivos to joya\\Semestres\\Cuarto semestre\\Program3\\Tallerjuego\\Animaciones\\Modelos\\Heroe.cs",
               "RelativeToolTip": "Modelos\\Heroe.cs",
-              "ViewState": "AgIAAHQAAAAAAAAAAAAowIQAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABkAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-08T19:07:01.823Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "Animator.cs",
               "DocumentMoniker": "C:\\Archivos to joya\\Semestres\\Cuarto semestre\\Program3\\Tallerjuego\\Animaciones\\Componentes\\Animator.cs",
               "RelativeDocumentMoniker": "Componentes\\Animator.cs",
               "ToolTip": "C:\\Archivos to joya\\Semestres\\Cuarto semestre\\Program3\\Tallerjuego\\Animaciones\\Componentes\\Animator.cs",
               "RelativeToolTip": "Componentes\\Animator.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAUwEEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-08T19:08:42.664Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Form1.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Archivos to joya\\Semestres\\Cuarto semestre\\Program3\\Tallerjuego\\Animaciones\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
@@ -102,19 +118,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Personaje.cs",
               "DocumentMoniker": "C:\\Archivos to joya\\Semestres\\Cuarto semestre\\Program3\\Tallerjuego\\Animaciones\\Modelos\\Personaje.cs",
               "RelativeDocumentMoniker": "Modelos\\Personaje.cs",
               "ToolTip": "C:\\Archivos to joya\\Semestres\\Cuarto semestre\\Program3\\Tallerjuego\\Animaciones\\Modelos\\Personaje.cs",
               "RelativeToolTip": "Modelos\\Personaje.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-08T19:07:21.269Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Animacion.cs",
               "DocumentMoniker": "C:\\Archivos to joya\\Semestres\\Cuarto semestre\\Program3\\Tallerjuego\\Animaciones\\Componentes\\Animacion.cs",
               "RelativeDocumentMoniker": "Componentes\\Animacion.cs",
