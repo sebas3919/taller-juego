@@ -1,0 +1,10 @@
+C:\Users\Dario\source\repos\Animaciones\bin\Release\Animaciones.exe.config
+C:\Users\Dario\source\repos\Animaciones\bin\Release\Animaciones.exe
+C:\Users\Dario\source\repos\Animaciones\bin\Release\Animaciones.pdb
+C:\Users\Dario\source\repos\Animaciones\obj\Release\Animaciones.csproj.AssemblyReference.cache
+C:\Users\Dario\source\repos\Animaciones\obj\Release\Animaciones.Form1.resources
+C:\Users\Dario\source\repos\Animaciones\obj\Release\Animaciones.Properties.Resources.resources
+C:\Users\Dario\source\repos\Animaciones\obj\Release\Animaciones.csproj.GenerateResource.cache
+C:\Users\Dario\source\repos\Animaciones\obj\Release\Animaciones.csproj.CoreCompileInputs.cache
+C:\Users\Dario\source\repos\Animaciones\obj\Release\Animaciones.exe
+C:\Users\Dario\source\repos\Animaciones\obj\Release\Animaciones.pdb
