@@ -1,37 +1,37 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Archivos to joya\\Semestres\\Cuarto semestre\\Program3\\Tallerjuego\\Animaciones\\",
+  "WorkspaceRootPath": "C:\\Users\\ASUS TUF\\Documents\\U\\semestre 4\\programacion 3\\animaciones3\\taller-juego\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E7D4E7EE-16D6-4524-84DF-657C02BF5C81}|Animaciones.csproj|c:\\archivos to joya\\semestres\\cuarto semestre\\program3\\tallerjuego\\animaciones\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E7D4E7EE-16D6-4524-84DF-657C02BF5C81}|Animaciones.csproj|c:\\users\\asus tuf\\documents\\u\\semestre 4\\programacion 3\\animaciones3\\taller-juego\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E7D4E7EE-16D6-4524-84DF-657C02BF5C81}|Animaciones.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E7D4E7EE-16D6-4524-84DF-657C02BF5C81}|Animaciones.csproj|C:\\Archivos to joya\\Semestres\\Cuarto semestre\\Program3\\Tallerjuego\\Animaciones\\modelos\\asesino.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7D4E7EE-16D6-4524-84DF-657C02BF5C81}|Animaciones.csproj|solutionrelative:modelos\\asesino.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7D4E7EE-16D6-4524-84DF-657C02BF5C81}|Animaciones.csproj|C:\\Archivos to joya\\Semestres\\Cuarto semestre\\Program3\\Tallerjuego\\Animaciones\\componentes\\animator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7D4E7EE-16D6-4524-84DF-657C02BF5C81}|Animaciones.csproj|solutionrelative:componentes\\animator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7D4E7EE-16D6-4524-84DF-657C02BF5C81}|Animaciones.csproj|C:\\Archivos to joya\\Semestres\\Cuarto semestre\\Program3\\Tallerjuego\\Animaciones\\modelos\\heroe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7D4E7EE-16D6-4524-84DF-657C02BF5C81}|Animaciones.csproj|solutionrelative:modelos\\heroe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7D4E7EE-16D6-4524-84DF-657C02BF5C81}|Animaciones.csproj|C:\\Archivos to joya\\Semestres\\Cuarto semestre\\Program3\\Tallerjuego\\Animaciones\\modelos\\villano.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7D4E7EE-16D6-4524-84DF-657C02BF5C81}|Animaciones.csproj|solutionrelative:modelos\\villano.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7D4E7EE-16D6-4524-84DF-657C02BF5C81}|Animaciones.csproj|C:\\Archivos to joya\\Semestres\\Cuarto semestre\\Program3\\Tallerjuego\\Animaciones\\modelos\\personaje.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E7D4E7EE-16D6-4524-84DF-657C02BF5C81}|Animaciones.csproj|C:\\Users\\ASUS TUF\\Documents\\U\\semestre 4\\programacion 3\\animaciones3\\taller-juego\\modelos\\personaje.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E7D4E7EE-16D6-4524-84DF-657C02BF5C81}|Animaciones.csproj|solutionrelative:modelos\\personaje.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E7D4E7EE-16D6-4524-84DF-657C02BF5C81}|Animaciones.csproj|C:\\Archivos to joya\\Semestres\\Cuarto semestre\\Program3\\Tallerjuego\\Animaciones\\componentes\\animacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E7D4E7EE-16D6-4524-84DF-657C02BF5C81}|Animaciones.csproj|C:\\Users\\ASUS TUF\\Documents\\U\\semestre 4\\programacion 3\\animaciones3\\taller-juego\\modelos\\asesino.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7D4E7EE-16D6-4524-84DF-657C02BF5C81}|Animaciones.csproj|solutionrelative:modelos\\asesino.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7D4E7EE-16D6-4524-84DF-657C02BF5C81}|Animaciones.csproj|C:\\Users\\ASUS TUF\\Documents\\U\\semestre 4\\programacion 3\\animaciones3\\taller-juego\\componentes\\animacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E7D4E7EE-16D6-4524-84DF-657C02BF5C81}|Animaciones.csproj|solutionrelative:componentes\\animacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E7D4E7EE-16D6-4524-84DF-657C02BF5C81}|Animaciones.csproj|C:\\Archivos to joya\\Semestres\\Cuarto semestre\\Program3\\Tallerjuego\\Animaciones\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{E7D4E7EE-16D6-4524-84DF-657C02BF5C81}|Animaciones.csproj|C:\\Users\\ASUS TUF\\Documents\\U\\semestre 4\\programacion 3\\animaciones3\\taller-juego\\componentes\\animator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7D4E7EE-16D6-4524-84DF-657C02BF5C81}|Animaciones.csproj|solutionrelative:componentes\\animator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7D4E7EE-16D6-4524-84DF-657C02BF5C81}|Animaciones.csproj|C:\\Users\\ASUS TUF\\Documents\\U\\semestre 4\\programacion 3\\animaciones3\\taller-juego\\modelos\\villano.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7D4E7EE-16D6-4524-84DF-657C02BF5C81}|Animaciones.csproj|solutionrelative:modelos\\villano.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7D4E7EE-16D6-4524-84DF-657C02BF5C81}|Animaciones.csproj|C:\\Users\\ASUS TUF\\Documents\\U\\semestre 4\\programacion 3\\animaciones3\\taller-juego\\modelos\\heroe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7D4E7EE-16D6-4524-84DF-657C02BF5C81}|Animaciones.csproj|solutionrelative:modelos\\heroe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7D4E7EE-16D6-4524-84DF-657C02BF5C81}|Animaciones.csproj|C:\\Users\\ASUS TUF\\Documents\\U\\semestre 4\\programacion 3\\animaciones3\\taller-juego\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{E7D4E7EE-16D6-4524-84DF-657C02BF5C81}|Animaciones.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -42,103 +42,114 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Asesino.cs",
-              "DocumentMoniker": "C:\\Archivos to joya\\Semestres\\Cuarto semestre\\Program3\\Tallerjuego\\Animaciones\\Modelos\\Asesino.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS TUF\\Documents\\U\\semestre 4\\programacion 3\\animaciones3\\taller-juego\\Modelos\\Asesino.cs",
               "RelativeDocumentMoniker": "Modelos\\Asesino.cs",
-              "ToolTip": "C:\\Archivos to joya\\Semestres\\Cuarto semestre\\Program3\\Tallerjuego\\Animaciones\\Modelos\\Asesino.cs",
+              "ToolTip": "C:\\Users\\ASUS TUF\\Documents\\U\\semestre 4\\programacion 3\\animaciones3\\taller-juego\\Modelos\\Asesino.cs",
               "RelativeToolTip": "Modelos\\Asesino.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAHwAAAAAAAAAAAAqwJMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-12T02:58:56.115Z"
+              "WhenOpened": "2026-03-12T02:58:56.115Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Archivos to joya\\Semestres\\Cuarto semestre\\Program3\\Tallerjuego\\Animaciones\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS TUF\\Documents\\U\\semestre 4\\programacion 3\\animaciones3\\taller-juego\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Archivos to joya\\Semestres\\Cuarto semestre\\Program3\\Tallerjuego\\Animaciones\\Form1.cs",
+              "ToolTip": "C:\\Users\\ASUS TUF\\Documents\\U\\semestre 4\\programacion 3\\animaciones3\\taller-juego\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADABAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAHUBAAAAAAAAAAAAAIQBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-08T19:07:46.754Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Villano.cs",
-              "DocumentMoniker": "C:\\Archivos to joya\\Semestres\\Cuarto semestre\\Program3\\Tallerjuego\\Animaciones\\Modelos\\Villano.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS TUF\\Documents\\U\\semestre 4\\programacion 3\\animaciones3\\taller-juego\\Modelos\\Villano.cs",
               "RelativeDocumentMoniker": "Modelos\\Villano.cs",
-              "ToolTip": "C:\\Archivos to joya\\Semestres\\Cuarto semestre\\Program3\\Tallerjuego\\Animaciones\\Modelos\\Villano.cs",
+              "ToolTip": "C:\\Users\\ASUS TUF\\Documents\\U\\semestre 4\\programacion 3\\animaciones3\\taller-juego\\Modelos\\Villano.cs",
               "RelativeToolTip": "Modelos\\Villano.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAFoAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAHcAAAAAAAAAAAAAAI8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-08T19:24:06.394Z"
+              "WhenOpened": "2026-03-08T19:24:06.394Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Heroe.cs",
-              "DocumentMoniker": "C:\\Archivos to joya\\Semestres\\Cuarto semestre\\Program3\\Tallerjuego\\Animaciones\\Modelos\\Heroe.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS TUF\\Documents\\U\\semestre 4\\programacion 3\\animaciones3\\taller-juego\\Modelos\\Heroe.cs",
               "RelativeDocumentMoniker": "Modelos\\Heroe.cs",
-              "ToolTip": "C:\\Archivos to joya\\Semestres\\Cuarto semestre\\Program3\\Tallerjuego\\Animaciones\\Modelos\\Heroe.cs",
+              "ToolTip": "C:\\Users\\ASUS TUF\\Documents\\U\\semestre 4\\programacion 3\\animaciones3\\taller-juego\\Modelos\\Heroe.cs",
               "RelativeToolTip": "Modelos\\Heroe.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABkAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAHwAAAAAAAAAAAAqwJMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-08T19:07:01.823Z"
+              "WhenOpened": "2026-03-08T19:07:01.823Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Animator.cs",
-              "DocumentMoniker": "C:\\Archivos to joya\\Semestres\\Cuarto semestre\\Program3\\Tallerjuego\\Animaciones\\Componentes\\Animator.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS TUF\\Documents\\U\\semestre 4\\programacion 3\\animaciones3\\taller-juego\\Componentes\\Animator.cs",
               "RelativeDocumentMoniker": "Componentes\\Animator.cs",
-              "ToolTip": "C:\\Archivos to joya\\Semestres\\Cuarto semestre\\Program3\\Tallerjuego\\Animaciones\\Componentes\\Animator.cs",
+              "ToolTip": "C:\\Users\\ASUS TUF\\Documents\\U\\semestre 4\\programacion 3\\animaciones3\\taller-juego\\Componentes\\Animator.cs",
               "RelativeToolTip": "Componentes\\Animator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACkAAAAAAAAAAAAAAEEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-08T19:08:42.664Z"
+              "WhenOpened": "2026-03-08T19:08:42.664Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "Form1.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Archivos to joya\\Semestres\\Cuarto semestre\\Program3\\Tallerjuego\\Animaciones\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS TUF\\Documents\\U\\semestre 4\\programacion 3\\animaciones3\\taller-juego\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\ASUS TUF\\Documents\\U\\semestre 4\\programacion 3\\Animaciones (2)\\Animaciones (2)\\Animaciones\\Form1.cs [Dise\u00F1o]",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Users\\ASUS TUF\\Documents\\U\\semestre 4\\programacion 3\\Animaciones (2)\\Animaciones (2)\\Animaciones\\Form1.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\ASUS TUF\\Documents\\U\\semestre 4\\programacion 3\\animaciones3\\taller-juego\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Form1.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-08T19:07:38.904Z"
+              "WhenOpened": "2026-03-08T19:07:38.904Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "Personaje.cs",
-              "DocumentMoniker": "C:\\Archivos to joya\\Semestres\\Cuarto semestre\\Program3\\Tallerjuego\\Animaciones\\Modelos\\Personaje.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS TUF\\Documents\\U\\semestre 4\\programacion 3\\animaciones3\\taller-juego\\Modelos\\Personaje.cs",
               "RelativeDocumentMoniker": "Modelos\\Personaje.cs",
-              "ToolTip": "C:\\Archivos to joya\\Semestres\\Cuarto semestre\\Program3\\Tallerjuego\\Animaciones\\Modelos\\Personaje.cs",
+              "ToolTip": "C:\\Users\\ASUS TUF\\Documents\\U\\semestre 4\\programacion 3\\animaciones3\\taller-juego\\Modelos\\Personaje.cs",
               "RelativeToolTip": "Modelos\\Personaje.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAA8wB8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-08T19:07:21.269Z"
+              "WhenOpened": "2026-03-08T19:07:21.269Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "Animacion.cs",
-              "DocumentMoniker": "C:\\Archivos to joya\\Semestres\\Cuarto semestre\\Program3\\Tallerjuego\\Animaciones\\Componentes\\Animacion.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS TUF\\Documents\\U\\semestre 4\\programacion 3\\animaciones3\\taller-juego\\Componentes\\Animacion.cs",
               "RelativeDocumentMoniker": "Componentes\\Animacion.cs",
-              "ToolTip": "C:\\Archivos to joya\\Semestres\\Cuarto semestre\\Program3\\Tallerjuego\\Animaciones\\Componentes\\Animacion.cs",
+              "ToolTip": "C:\\Users\\ASUS TUF\\Documents\\U\\semestre 4\\programacion 3\\animaciones3\\taller-juego\\Componentes\\Animacion.cs",
               "RelativeToolTip": "Componentes\\Animacion.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-08T19:07:16.759Z"
+              "WhenOpened": "2026-03-08T19:07:16.759Z",
+              "EditorCaption": ""
             }
           ]
         }

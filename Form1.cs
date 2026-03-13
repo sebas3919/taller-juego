@@ -2,6 +2,7 @@
 using Animaciones.Modelos;
 using System;
 using System.Drawing;
+using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -42,10 +43,13 @@ namespace Animaciones
         Personaje asesino = new Asesino();
 
         Timer loop = new Timer();
-
+        Random rnd = new Random();
+        bool villanoYaAtaco = false;
         public Form1()
         {
             InitializeComponent();
+            label1.Location = new Point(970, 20);
+            label2.Location = new Point(970, 45);
             heroe.Energia = 100;
             int espacioBarras = 120;
             this.Width = columnas * tamanoCelda + 20;
@@ -55,9 +59,11 @@ namespace Animaciones
 
             progressBar1.Maximum = heroe.EnergiaMaxima;
             progressBar2.Maximum = villano.EnergiaMaxima;
+            progressBar3.Maximum = asesino.EnergiaMaxima;
 
             progressBar1.Value = heroe.Energia;
             progressBar2.Value = villano.Energia;
+            progressBar3.Value = asesino.Energia;
 
             progressBar1.Location = new Point(50, filas * tamanoCelda + 20);
             progressBar1.Width = 250;
@@ -65,14 +71,25 @@ namespace Animaciones
             progressBar2.Location = new Point(350, filas * tamanoCelda + 20);
             progressBar2.Width = 250;
 
-            villano.Energia = 100;
-            heroe.Energia = 100;
+            progressBar3.Location = new Point(650, filas * tamanoCelda + 20);
+            progressBar3.Width = 250;
 
-            progressBar1.Maximum = 100;
+            villano.Energia = 500;
+            heroe.Energia = 300;
+            asesino.Energia = 100;
+
+            heroe.Danio = 40;
+            villano.Danio = 30;
+            asesino.Danio = 20;
+
+            progressBar1.Maximum = 300;
             progressBar1.Value = heroe.Energia;
 
-            progressBar2.Maximum = 100;
+            progressBar2.Maximum = 500;
             progressBar2.Value = villano.Energia;
+
+            progressBar3.Maximum = 100;
+            progressBar3.Value = asesino.Energia;
 
             this.KeyPreview = true;
             this.DoubleBuffered = true;
@@ -116,7 +133,13 @@ namespace Animaciones
                 villanoFila * tamanoCelda
             );
         }
+        bool EstanAdyacentes(int f1, int c1, int f2, int c2)
+        {
+            int df = Math.Abs(f1 - f2);
+            int dc = Math.Abs(c1 - c2);
 
+            return (df + dc) == 1;
+        }
         void ActualizarPosicionAsesino()
         {
             asesino.Skin.Location = new Point(
@@ -236,6 +259,17 @@ namespace Animaciones
             if (e.KeyCode == Keys.Space)
             {
                 ((Heroe)heroe).EstadoActual = Heroe.EstadosHeroe.AtacandoDerecha;
+
+                if (EstanAdyacentes(heroeFila, heroeColumna, villanoFila, villanoColumna))
+                {
+                    villano.RecibirDanio(heroe.Danio);
+                }
+
+                if (EstanAdyacentes(heroeFila, heroeColumna, asesinoFila, asesinoColumna))
+                {
+                    asesino.RecibirDanio(heroe.Danio);
+                }
+
                 turnoActual = Turno.Asesino;
             }
         }
@@ -273,6 +307,17 @@ namespace Animaciones
             if (e.KeyCode == Keys.X)
             {
                 ((Asesino)asesino).EstadoActual = Asesino.EstadosAsesino.AtacandoDerecha;
+
+                if (EstanAdyacentes(asesinoFila, asesinoColumna, villanoFila, villanoColumna))
+                {
+                    villano.RecibirDanio(asesino.Danio);
+                }
+
+                if (EstanAdyacentes(asesinoFila, asesinoColumna, heroeFila, heroeColumna))
+                {
+                    heroe.RecibirDanio(asesino.Danio);
+                }
+
                 turnoActual = Turno.Villano;
             }
         }
@@ -293,6 +338,7 @@ namespace Animaciones
         {
             progressBar1.Value = heroe.Energia;
             progressBar2.Value = villano.Energia;
+            progressBar3.Value = asesino.Energia;
         }
         private int contadorTurno = 0;
 
@@ -322,19 +368,95 @@ namespace Animaciones
         {
             contadorTurno++;
 
-            if (contadorTurno == 30)
+            if (contadorTurno == 20)
             {
-                ((Villano)villano).EstadoActual = Villano.EstadosVillano.AtacandoDerecha;
-            }
+                // si esta al lado ataca
+                if (EstanAdyacentes(villanoFila, villanoColumna, heroeFila, heroeColumna))
+                {
+                    ((Villano)villano).EstadoActual = Villano.EstadosVillano.AtacandoDerecha;
 
-            if (contadorTurno > 120)
+                    heroe.RecibirDanio(villano.Danio);
+                }
+                else
+                {
+                    // si no esta cerca, se mueve
+                    if (rnd.Next(100) < 40)
+                        MovimientoAleatorioVillano();
+                    else
+                        MoverVillanoIA();
+                }
+            }
+            if (contadorTurno > 100)
             {
                 contadorTurno = 0;
 
+                
                 ((Villano)villano).EstadoActual = Villano.EstadosVillano.Idle;
 
                 turnoActual = Turno.Heroe;
             }
+        }
+
+        void MovimientoAleatorioVillano()
+        {
+            int[,] dirs =
+            {
+             {1,0},
+             {-1,0},
+             {0,1},
+             {0,-1}
+            };
+
+            int d = rnd.Next(4);
+
+            int nf = villanoFila + dirs[d, 0];
+            int nc = villanoColumna + dirs[d, 1];
+
+            if (PuedeMover(nf, nc))
+            {
+                villanoFila = nf;
+                villanoColumna = nc;
+
+                ActualizarPosicionVillano();
+            }
+        }
+        void MoverVillanoIA()
+        {
+            int mejorFila = villanoFila;
+            int mejorCol = villanoColumna;
+
+            int distActual = Math.Abs(villanoFila - heroeFila) + Math.Abs(villanoColumna - heroeColumna);
+
+            int[,] dirs =
+            {
+                  {1,0},
+                 {-1,0},
+                  {0,1},
+                {0,-1}
+    };
+
+            foreach (var d in Enumerable.Range(0, 4))
+            {
+                int nf = villanoFila + dirs[d, 0];
+                int nc = villanoColumna + dirs[d, 1];
+
+                if (!PuedeMover(nf, nc))
+                    continue;
+
+                int dist = Math.Abs(nf - heroeFila) + Math.Abs(nc - heroeColumna);
+
+                if (dist < distActual)
+                {
+                    mejorFila = nf;
+                    mejorCol = nc;
+                    distActual = dist;
+                }
+            }
+
+            villanoFila = mejorFila;
+            villanoColumna = mejorCol;
+
+            ActualizarPosicionVillano();
         }
     }
 }
