@@ -304,8 +304,11 @@ namespace Animaciones
                     heroe.Danio += 10;
             }
 
-            mapa[heroeFila, heroeColumna] = 0;
-            buffsActivos--;
+            if (celda == 2 || celda == 3)
+            {
+                mapa[heroeFila, heroeColumna] = 0;
+                buffsActivos--;
+            }
             turnoActual = Turno.Villano;
         }
     
@@ -403,56 +406,68 @@ namespace Animaciones
         {
             int[,] dirs =
             {
-                {1,0},
-                {-1,0},
-                {0,1},
-                {0,-1}
-            };
+        {1,0},
+        {-1,0},
+        {0,1},
+        {0,-1}
+    };
 
-            int d = rnd.Next(4);
-
-            int nf = villanoFila + dirs[d, 0];
-            int nc = villanoColumna + dirs[d, 1];
-
-            if (PuedeMover(nf, nc))
+            for (int i = 0; i < 4; i++)
             {
-                villanoFila = nf;
-                villanoColumna = nc;
-                ActualizarPosicionVillano();
+                int d = rnd.Next(4);
+
+                int nf = villanoFila + dirs[d, 0];
+                int nc = villanoColumna + dirs[d, 1];
+
+                if (PuedeMover(nf, nc))
+                {
+                    villanoFila = nf;
+                    villanoColumna = nc;
+                    ActualizarPosicionVillano();
+                    return;
+                }
             }
         }
 
         void MoverVillanoIA()
         {
+            int[,] dirs =
+            {
+        {1,0},
+        {-1,0},
+        {0,1},
+        {0,-1}
+    };
+
             int mejorFila = villanoFila;
             int mejorCol = villanoColumna;
 
-            int distActual = Math.Abs(villanoFila - heroeFila) + Math.Abs(villanoColumna - heroeColumna);
+            int mejorDist = int.MaxValue;
 
-            int[,] dirs =
+            // buscar movimiento que acerque al héroe
+            for (int i = 0; i < 4; i++)
             {
-                {1,0},
-                {-1,0},
-                {0,1},
-                {0,-1}
-            };
-
-            for (int d = 0; d < 4; d++)
-            {
-                int nf = villanoFila + dirs[d, 0];
-                int nc = villanoColumna + dirs[d, 1];
+                int nf = villanoFila + dirs[i, 0];
+                int nc = villanoColumna + dirs[i, 1];
 
                 if (!PuedeMover(nf, nc))
                     continue;
 
                 int dist = Math.Abs(nf - heroeFila) + Math.Abs(nc - heroeColumna);
 
-                if (dist < distActual)
+                if (dist < mejorDist)
                 {
+                    mejorDist = dist;
                     mejorFila = nf;
                     mejorCol = nc;
-                    distActual = dist;
                 }
+            }
+
+            
+            if (mejorFila == villanoFila && mejorCol == villanoColumna)
+            {
+                MovimientoAleatorioVillano();
+                return;
             }
 
             villanoFila = mejorFila;
